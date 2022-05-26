@@ -10,7 +10,7 @@ router.get('/', (req,res)=>{
 //Novo autor
 
 router.get('/new', (req,res)=>{
-    res.render('authors/new')    
+    res.render('/authors/new')    
 })
 
 //Criar Autor

@@ -11,6 +11,7 @@ const expressLayouts = require('express-ejs-layouts')
 //Importando os routers
 const indexRouter = require('./routes/index')
 const authorsRouter = require('./routes/authors')
+const styleRouter = require('./routes/authors')
 
 
 //Conectando ao MongoDB
